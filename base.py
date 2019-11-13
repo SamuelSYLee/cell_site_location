@@ -32,7 +32,7 @@ for i in range(numLoc):
 '''check the covered people in each town'''
 for t in range(info[1]):
 	
-'''calculation for covered people in each assumed base location'''
+	'''calculation for covered people in each assumed base location'''
 	for i in range(numLoc):
 		unchecked.remove(i)
 		# print(unchecked)
@@ -57,7 +57,7 @@ for t in range(info[1]):
 	if max(cal_people) == 0:
 		break
 		
-'''check the largest covered people count in each assumed base location'''		
+	'''check the largest covered people count in each assumed base location'''		
 	for i in range(numLoc):	
 		if cal_people[i] == max(cal_people):			
 			for j in cal_coveredLoc[i]:
