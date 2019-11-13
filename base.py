@@ -1,5 +1,5 @@
 '''input for data information'''
-'''info[] = [nunber of town, number od bases, covered distance]'''
+'''info[] = [count of town, count of bases, covered distance]'''
 info = []
 info = input().split()
 for i in range(3):
